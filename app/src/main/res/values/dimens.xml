@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  it is the R of the circle  -->
+    <dimen name="hand_length">150dp</dimen>
+    <dimen name="general_margin">15dp</dimen>
+    <dimen name="hand_width">40dp</dimen>
+    <dimen name="half_hand_width">20dp</dimen>
+
+    <!-- hand length minus half o width so: -->
+    <dimen name="hand_margin_left">130dp</dimen>
+
+</resources>

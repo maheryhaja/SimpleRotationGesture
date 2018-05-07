@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="maheryhaja.mg.simplerotationgesture.MainActivity"
+    android:padding="@dimen/general_margin"
+    android:id="@+id/root_layout"
+    >
+
+    <LinearLayout
+        android:layout_width="@dimen/hand_width"
+        android:layout_height="@dimen/hand_length"
+        android:background="@color/colorAccent"
+        android:id="@+id/linear_hand"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/hand_margin_left"
+        android:transformPivotY="@dimen/hand_length"
+        android:transformPivotX="@dimen/half_hand_width"
+        ></LinearLayout>
+
+</RelativeLayout>
